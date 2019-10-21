@@ -1,0 +1,39 @@
+/***********Photo Gallery CSS***************/
+body{
+    background-color: #696868;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img{
+    padding: 8px;
+    width: 100px;
+}
+#display-box {
+    display: none;
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,.7);
+    color: white;
+    overflow: hidden;
+}
+#photo-box {
+    display: flex;
+    justify-content: center;
+    max-height: 75%;
+    width: 80%;   
+}
+.scroll-button {
+    font-size: 70px;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 10;
+}
